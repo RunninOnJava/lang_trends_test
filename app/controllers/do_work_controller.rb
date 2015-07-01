@@ -1,8 +1,11 @@
 class DoWorkController < ApplicationController
   include ActionView::Helpers::NumberHelper
   def home
-    @locations = ["Boston","San Francisco","Los Angeles", "Denver", "Boulder","Chicago","New York"]
-    @langs= ["Node", "python","C++","C","Scala","ruby"]
+    #@locations = ["Boston","San Francisco","Los Angeles", "Denver", "Boulder","Chicago","New York"]
+    #shorten lists to reduce loadtime
+    @locations = ["Boston","San Francisco", "Boulder"]
+    #@langs= ["Node", "python","C++","C","Scala","ruby"]
+    @langs= ["Node", "python","C++","C","Scala"]
     @jobs = nil
     tmp_hsh = {}
     @hsh = Hash.new
