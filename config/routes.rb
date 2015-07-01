@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   resources :do_work
-  root 'do_work#new'
+  root 'do_work#home'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

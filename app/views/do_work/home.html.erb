@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Programming Language Trends Across Major Cities</title>
+  </head>
+  <body>
+  <%@final.each do |key, value| %>
+    <%="#{key}:"%>
+    <br>
+    <%value.each do |k, v|%>
+      <%=" - #{k.capitalize}: #{v}"%>
+      <br>
+    <%end%>
+  <%end%>
+  </body>
+</html>
