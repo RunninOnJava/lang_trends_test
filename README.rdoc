@@ -4,4 +4,4 @@ This is a website that displays programming language trends across major cities
 based on the number of jobs returned from searching the 
 jobs.github.com/positions website.
 
-It is deployed to 'https://git.heroku.com/programming-lang-trends.git'
+It is deployed to 'https://programming-lang-trends.herokuapp.com/'
