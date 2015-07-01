@@ -1,8 +1,8 @@
-<%@locations.each do |loc| %>
-  <%=loc %>:
+<%@final.each do |key, value| %>
+  <%="#{key}:"%>
   <br>
-     <%@hsh.each do |key, value| %>
-     - <%="#{key.capitalize}: #{value}"%>
+  <%value.each do |k, v|%>
+    <%=" - #{k.capitalize}: #{v}"%>
   <br>
   <%end%>
 <%end%>
